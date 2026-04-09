@@ -1,0 +1,272 @@
+/* Global Styling*/
+body{
+  background-image: url(img/image2.png);
+  background-size: cover;
+  text-align: center;
+  background-color: #f4f8fb;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #1a3d68;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+    background-color: #1A3D68; 
+    padding: 15px 5%;
+}
+
+nav ul {
+    list-style-type: none; 
+    display: flex;
+    justify-content: flex-end; 
+    gap: 25px; 
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: #F4F8FB; 
+    font-weight: 500;
+    transition: color 0.3s ease; 
+}
+
+nav ul li a:hover {
+    color: #C0C0C0; 
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    margin-top: auto; 
+    
+}
+
+footer p {
+    color: #C0C0C0;
+    font-size: 0.85rem;
+}
+
+/*Home Page Styling*/
+.home-page main {
+    flex: 1; 
+    width: 90%;
+    max-width: 1000px; 
+    margin: 60px auto; 
+    text-align: center; 
+}
+
+.home-page h1 {
+    margin-bottom: 30px;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.home-page figure {
+    margin-bottom: 50px; 
+}
+
+.home-page blockquote {
+    font-style: italic; 
+    font-size: 1.15rem;
+    margin: 0 auto;
+    max-width: 700px; 
+}
+
+.home-page figcaption {
+    margin-top: 15px; 
+    color: #C0C0C0;
+    font-size: 0.95rem;
+}
+
+.home-page cite {
+    font-style: normal;
+}
+
+.home-page main img {
+    max-width: 100%; 
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/*Add-course page styling*/
+.add-page h2 {
+    color: #1A3D68;
+    text-align: center;
+    
+}
+.add-page p {
+    color: #1A3D68;
+    text-align: center;
+    font-weight:bold;
+}
+.form{
+     background-color: #FFFFFF; 
+     color: #C0C0C0;
+     width: 500px;
+     height: 500px;
+     margin-left: auto;
+     margin-right:auto;
+     margin-top: 10px;
+     margin-bottom: auto;
+    border-radius: 10px;
+    border: 5px solid #d0e6f7;
+}
+
+.form label{
+    color: #1A3D68;
+    font-weight: 500;
+}
+.form input[type="text"],
+.form select,
+.form textarea
+{
+   width: 75%;
+    margin: 15px;
+    border-radius: 4px;
+    border: 10px solid #A0A0A0;
+    background-color: #FFFFFF;
+     margin-left: auto;
+     margin-right:auto;
+     border: 1px solid #a0a0a0;
+     color: #1A3D68;
+    font-family: inherit;
+}
+
+.form input[type="text"]:focus,
+.form select:focus,
+.form textarea:focus {
+    outline: none;
+    border-color: #4682B4;
+
+    box-shadow: 0 0 5px rgba(70, 130, 180, 0.3);
+}
+
+
+.form button,
+.form input[type="submit"] {
+    background-color: #4682B4; 
+    color: #F4F8FB; 
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 10px; 
+    transition: background-color 0.3s;
+}
+
+
+.form button:hover,
+.form input[type="submit"]:hover {
+    background-color: #1A3D68; 
+}
+
+/* ContactPage styling */
+.contactsp h2 {
+    color: #1A3D68;
+    text-align: center;
+}
+.contactsp p {
+    color: #1A3D68;
+    text-align: center;
+    font-weight:bold;
+    margin-top: 5px;
+}
+
+.contactsP{
+    background-color: #FFFFFF;
+    width: 50%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #d0e6f7;
+    border-radius: 5px;
+}
+
+.contactsp ul{
+    list-style-type: none;
+    margin-top:15px ;
+}
+
+.contactsP a:link{
+    text-decoration: underline;
+    text-decoration-color: #A0A0A0;
+    color: #1A3D68;
+}
+.contactsP a:hover{
+    color: #4682B4;
+    text-decoration-color: #4682B4;
+}
+.contactsP a:active{
+    color: #4682B4;
+}
+
+.contactsP a:visited{
+    color: #A0A0A0;
+    text-decoration-color: #D0E6F7;
+}
+/* tabel page styling */
+.tablep h2 {
+    text-align: center;
+    color: #1A3D68; 
+    margin: 40px 0 20px 0;
+    font-size: 2rem;
+}
+
+main.tableP {
+    max-width: 1000px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 50px; 
+    padding: 0 20px; 
+}
+
+.tableP table {
+    width: 100%; 
+    border-collapse: collapse; 
+    background-color: #FFFFFF; 
+    border: 2px;
+    border-radius: 8px; 
+  
+}
+
+.tableP th {
+    background-color: #1A3D68;
+    color: #F4F8FB;
+    text-align: left; 
+    padding: 15px 20px; 
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+
+.tableP td {
+    padding: 15px 20px; 
+    color: #1A3D68; 
+    border-bottom: 2px solid #D0E6F7; 
+}
+
+.tableP tr:nth-child(even) {
+    background-color: #F4F8FB; 
+}
+
+.tableP tr:hover {
+    background-color: #D0E6F7; 
+    
+}
+
+.tableP tr:last-child td {
+    border-bottom: none;
+}

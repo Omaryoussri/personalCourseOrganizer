@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add course</title>
+  <link rel="stylesheet" href="style-course.css">
+</head>
+
+<body class="add-page">
+  <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>  
+          <li><a href="MyCourses.html">My courses</a></li>
+          <li><a href="contacts.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <h2>Register Course</h2>
+    <p>welcome to the Register-courses pages <br>To Register-courses you have fill-out this form of the course you want to add to your personal courses</p>
+
+ </body>
+ <main class="formPage">
+  
+  <form id="add-course-form" class="form">
+    <div class="container">
+     <div id="basic-info">
+        <label for="course-name">Enter Course-name: </label>
+        <input type="text" id="course-name" required/>
+     
+    <br>
+       <label for="instructor-name">Enter Instructor-name: </label>  
+       <input type="text" id="instructor-name" required/>
+    </div>
+    
+    <div class="credit-hours">
+      <label for="dropdown">Choose How many credit-hours</label>
+      <select id="dropdown" name="credit-hours">
+         <option>1-Hour</option>
+         <option>2-Hours</option>
+         <option>3-Hours</option>
+      </select>
+    </div>  
+    
+    <div class="notes">
+        <label for="notes">Type Any other Notes: </label>
+        <textarea id="notes"  rows="5" cols="30"></textarea>
+     </div>
+      <input type="submit" id="submit" value="submit" name="button">
+
+  </form>
+
+ </main>
+
+
+
+<footer>
+    <p>Created By Eng.Omar Youssri , FCAI-HU , 2025/2026</p>
+</footer>

@@ -238,6 +238,7 @@ footer p {
 main.tableP {
     max-width: 1000px;
     width: 100%; 
+    min-width: 0;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
@@ -260,7 +261,7 @@ main.tableP {
     border-collapse: collapse; 
     min-width: 600px;
     background-color: #FFFFFF; 
-    border: 2px;
+    border: 2px solid #D0E6F7;
     border-radius: 8px; 
   
 }
